@@ -1,6 +1,9 @@
 //  Runs the application using imports from lib/
 const inquirer = require('inquirer');
 const { default: Choices } = require('inquirer/lib/objects/choices');
+const fs = require('fs');
+const {Circle, Triangle, Square} = require("./lib/shapes");
+
 
 inquirer
     .prompt([
