@@ -12,16 +12,18 @@ inquirer
         {
             type: 'input',
             name: 'text-color',
-            message: 'Please choose your text color.',
+            message: 'Please choose your text color using a color keyword or hexadecimal number.',
         },
-        // {
-        //     type: 'list',
-        //     name: 'shape',
-        //     message: ['circle', 'triangle', 'square'],
-        // },
+        {
+            type: 'list',
+            name: 'shape',
+            message: 'Please choose a shape.',
+            choices: ['Circle', 'Triangle', 'Square'],
+
+        },
         {
             type: 'input',
             name: 'shape-color',
-            message: 'Please choose your shape color.',
+            message: 'Please choose your shape color using a color keyword or hexadecimal number.',
         },
     ])
