@@ -60,6 +60,12 @@ function generateLogo() {
         type: 'input',
         name: 'text',
         message: 'Please enter your text (up to 3 characters).',
+        validate: function(input){
+        if (input.trim().length === 0 || input.length > 3) {
+          return "Please enter up to 3 characters."
+        }
+          return true;
+        },
       },
       {
         type: 'input',
