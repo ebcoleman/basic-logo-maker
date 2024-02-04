@@ -113,7 +113,7 @@ function generateLogo() {
 
       fs.writeFileSync(filePath, svg);
 
-      console.log('Generated logo');
+      console.log('Generated logo.svg');
     })
     .catch((error) => {
       console.log('Error generating logo:', error);
