@@ -10,7 +10,7 @@ Walkthrough video:
 https://drive.google.com/file/d/1Drjya71xg4XoS-iaF2IaqteFrKZC_PIn/view
 
 Logo:
-![alt text](/assests/images/msu-logo.jpg)
+![alt text](/assets/images/msu-logo.jpg)
 
 ## Credits
 
